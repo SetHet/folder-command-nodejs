@@ -4,7 +4,9 @@
   "description": "Comando para la terminal que enlista archivos y carpetas. Con NodeJS.",
   "main": "folder.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon src\\folder.js",
+    "start": "node src\\folder.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/SetHet/folder-command-nodejs/issues"
   },
-  "homepage": "https://github.com/SetHet/folder-command-nodejs#readme"
+  "homepage": "https://github.com/SetHet/folder-command-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
 }
