@@ -1,0 +1,27 @@
+{
+  "name": "folder-command",
+  "version": "0.1.0",
+  "description": "Comando para la terminal que enlista archivos y carpetas. Con NodeJS.",
+  "main": "folder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SetHet/folder-command-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "ls",
+    "dir",
+    "folder",
+    "js"
+  ],
+  "author": "SetHet",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/SetHet/folder-command-nodejs/issues"
+  },
+  "homepage": "https://github.com/SetHet/folder-command-nodejs#readme"
+}
